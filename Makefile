@@ -1,5 +1,5 @@
 CFLAGS=-O2 -Wall -Wextra -lX11 -lpci
-PREFIX=$(HOME)/.local
+PREFIX=/usr/local
 CACHE=$(shell if [ "$$XDG_CACHE_HOME" ]; then echo "$$XDG_CACHE_HOME"; else echo "$$HOME"/.cache; fi)
 
 all: paleofetch

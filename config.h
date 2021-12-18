@@ -10,7 +10,6 @@
     { "Host: ",       get_host,                true  }, \
     { "Kernel: ",     get_kernel,              true  }, \
     { "Uptime: ",     get_uptime,              false }, \
-    { "Battery: ",    get_battery_percentage,  false }, \
     SPACER \
     { "Packages: ",   get_packages_pacman,   false }, \
     { "Shell: ",      get_shell,             false }, \
@@ -24,6 +23,8 @@
     { "",             get_colors1,             false }, \
     { "",             get_colors2,             false }, \
 }
+
+// { "Battery: ",    get_battery_percentage,  false }, \
 
 #define CPU_CONFIG \
 { \
